@@ -1,0 +1,4 @@
+interface:
+  display_name: "美期每日多空判斷"
+  short_description: "解讀 ES、NQ、YM 每日大量與均線訊號"
+  default_prompt: "Use $us-futures-daily-signal to 讀取最新美期日線訊號，摘要 ES、NQ、YM 的多空方向、重大事件、資料日期與風險。"
