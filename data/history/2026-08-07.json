@@ -1,18 +1,31 @@
 {
-  "generated_at": "2026-08-07T01:37:10.082248+00:00",
+  "generated_at": "2026-08-07T23:07:41.933040+00:00",
   "source": "Yahoo Finance unofficial chart endpoint",
   "status": "ok",
-  "market_bias": "mixed",
-  "latest_market_date": "2026-08-07T01:27:09+00:00",
+  "market_bias": "bullish",
+  "latest_market_date": "2026-08-07T04:00:00+00:00",
   "markets": {
     "ES": {
-      "data_time": "2026-08-07T01:27:07+00:00",
-      "bias": "neutral",
+      "data_time": "2026-08-07T04:00:00+00:00",
+      "bias": "bullish",
       "scores": {
-        "bullish": 0,
+        "bullish": 1,
         "bearish": 0
       },
-      "events": [],
+      "events": [
+        {
+          "type": "ma_hold",
+          "side": "bullish",
+          "strength": "normal",
+          "reason": "價格測試 MA5 後收在均線上方，且未有效跌破",
+          "details": {
+            "period": 5,
+            "ma": 7731.05,
+            "low": 7725.5,
+            "close": 7777.25
+          }
+        }
+      ],
       "config": {
         "moving_averages": [
           5,
@@ -35,19 +48,32 @@
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 7731.75,
-      "latest_volume": 21403,
-      "previous_close": 7749.5,
-      "daily_change_pct": -0.229
+      "latest_close": 7777.25,
+      "latest_volume": 1149369,
+      "previous_close": 7734.75,
+      "daily_change_pct": 0.5495
     },
     "NQ": {
-      "data_time": "2026-08-07T01:27:09+00:00",
-      "bias": "neutral",
+      "data_time": "2026-08-07T04:00:00+00:00",
+      "bias": "bullish",
       "scores": {
-        "bullish": 0,
+        "bullish": 1,
         "bearish": 0
       },
-      "events": [],
+      "events": [
+        {
+          "type": "ma_hold",
+          "side": "bullish",
+          "strength": "normal",
+          "reason": "價格測試 MA60 後收在均線上方，且未有效跌破",
+          "details": {
+            "period": 60,
+            "ma": 29511.4642,
+            "low": 29453.5,
+            "close": 29839.5
+          }
+        }
+      ],
       "config": {
         "moving_averages": [
           5,
@@ -70,13 +96,13 @@
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 29514.25,
-      "latest_volume": 25016,
-      "previous_close": 29615.0,
-      "daily_change_pct": -0.3402
+      "latest_close": 29839.5,
+      "latest_volume": 523493,
+      "previous_close": 29488.25,
+      "daily_change_pct": 1.1912
     },
     "YM": {
-      "data_time": "2026-08-07T01:26:58+00:00",
+      "data_time": "2026-08-07T04:00:00+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -105,10 +131,10 @@
       "data_quality": {
         "dropped_invalid_bars": 10
       },
-      "latest_close": 53944.0,
-      "latest_volume": 1879,
-      "previous_close": 54494.0,
-      "daily_change_pct": -1.0093
+      "latest_close": 54132.0,
+      "latest_volume": 53594,
+      "previous_close": 54013.0,
+      "daily_change_pct": 0.2203
     }
   },
   "errors": {},
