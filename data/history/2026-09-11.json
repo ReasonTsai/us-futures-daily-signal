@@ -1,18 +1,31 @@
 {
-  "generated_at": "2026-09-11T00:26:46.160097+00:00",
+  "generated_at": "2026-09-12T00:31:45.546048+00:00",
   "source": "Yahoo Finance unofficial chart endpoint",
   "status": "ok",
   "market_bias": "mixed",
-  "latest_market_date": "2026-09-11T00:16:44+00:00",
+  "latest_market_date": "2026-09-11T04:00:00+00:00",
   "markets": {
     "ES": {
-      "data_time": "2026-09-11T00:16:44+00:00",
-      "bias": "neutral",
+      "data_time": "2026-09-11T04:00:00+00:00",
+      "bias": "bullish",
       "scores": {
-        "bullish": 0,
+        "bullish": 1,
         "bearish": 0
       },
-      "events": [],
+      "events": [
+        {
+          "type": "ma_hold",
+          "side": "bullish",
+          "strength": "normal",
+          "reason": "價格測試 MA60 後收在均線上方，且未有效跌破",
+          "details": {
+            "period": 60,
+            "ma": 7607.828,
+            "low": 7594.25,
+            "close": 7660.75
+          }
+        }
+      ],
       "config": {
         "moving_averages": [
           5,
@@ -35,13 +48,13 @@
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 7604.75,
-      "latest_volume": 21864,
-      "previous_close": 7643.75,
-      "daily_change_pct": -0.5102
+      "latest_close": 7660.75,
+      "latest_volume": 1904677,
+      "previous_close": 7598.5,
+      "daily_change_pct": 0.8192
     },
     "NQ": {
-      "data_time": "2026-09-11T00:16:43+00:00",
+      "data_time": "2026-09-11T04:00:00+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -70,13 +83,13 @@
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 29113.0,
-      "latest_volume": 13149,
-      "previous_close": 29448.75,
-      "daily_change_pct": -1.1401
+      "latest_close": 29391.75,
+      "latest_volume": 539110,
+      "previous_close": 29135.25,
+      "daily_change_pct": 0.8804
     },
     "YM": {
-      "data_time": "2026-09-11T00:16:44+00:00",
+      "data_time": "2026-09-11T04:00:00+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -105,10 +118,10 @@
       "data_quality": {
         "dropped_invalid_bars": 10
       },
-      "latest_close": 52194.0,
-      "latest_volume": 1866,
-      "previous_close": 52425.0,
-      "daily_change_pct": -0.4406
+      "latest_close": 52576.0,
+      "latest_volume": 73584,
+      "previous_close": 52095.0,
+      "daily_change_pct": 0.9233
     }
   },
   "errors": {},
