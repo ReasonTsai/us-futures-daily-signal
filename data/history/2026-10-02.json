@@ -1,18 +1,31 @@
 {
-  "generated_at": "2026-10-02T01:46:51.780581+00:00",
+  "generated_at": "2026-10-03T01:21:00.848513+00:00",
   "source": "Yahoo Finance unofficial chart endpoint",
   "status": "ok",
-  "market_bias": "mixed",
-  "latest_market_date": "2026-10-02T01:36:49+00:00",
+  "market_bias": "bullish",
+  "latest_market_date": "2026-10-02T04:00:00+00:00",
   "markets": {
     "ES": {
-      "data_time": "2026-10-02T01:36:49+00:00",
-      "bias": "neutral",
+      "data_time": "2026-10-02T04:00:00+00:00",
+      "bias": "bullish",
       "scores": {
-        "bullish": 0,
+        "bullish": 1,
         "bearish": 0
       },
-      "events": [],
+      "events": [
+        {
+          "type": "ma_reclaim",
+          "side": "bullish",
+          "strength": "normal",
+          "reason": "MA5 曾被跌破，最新 K 棒重新站回",
+          "details": {
+            "period": 5,
+            "ma": 7738.95,
+            "close": 7776.5,
+            "reclaim_lookback": 3
+          }
+        }
+      ],
       "config": {
         "moving_averages": [
           5,
@@ -31,17 +44,17 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "ES=F",
-      "bar_count": 505,
+      "bar_count": 504,
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 7727.75,
-      "latest_volume": 44514,
+      "latest_close": 7776.5,
+      "latest_volume": 1763233,
       "previous_close": 7724.0,
-      "daily_change_pct": 0.0485
+      "daily_change_pct": 0.6797
     },
     "NQ": {
-      "data_time": "2026-10-02T01:36:48+00:00",
+      "data_time": "2026-10-02T04:00:00+00:00",
       "bias": "bullish",
       "scores": {
         "bullish": 2,
@@ -55,21 +68,21 @@
           "reason": "價格測試 MA5 後收在均線上方，且未有效跌破",
           "details": {
             "period": 5,
-            "ma": 30714.6,
+            "ma": 30737.55,
             "low": 30760.25,
-            "close": 30805.5
+            "close": 31049.0
           }
         },
         {
-          "type": "ma_reclaim",
+          "type": "ma_hold",
           "side": "bullish",
           "strength": "normal",
-          "reason": "MA5 曾被跌破，最新 K 棒重新站回",
+          "reason": "價格測試 MA10 後收在均線上方，且未有效跌破",
           "details": {
-            "period": 5,
-            "ma": 30714.6,
-            "close": 30805.5,
-            "reclaim_lookback": 3
+            "period": 10,
+            "ma": 30792.175,
+            "low": 30760.25,
+            "close": 31049.0
           }
         }
       ],
@@ -95,13 +108,13 @@
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 30805.5,
-      "latest_volume": 25970,
-      "previous_close": 30698.75,
-      "daily_change_pct": 0.3477
+      "latest_close": 31049.0,
+      "latest_volume": 573483,
+      "previous_close": 30760.5,
+      "daily_change_pct": 0.9379
     },
     "YM": {
-      "data_time": "2026-10-02T01:36:48+00:00",
+      "data_time": "2026-10-02T04:00:00+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -130,10 +143,10 @@
       "data_quality": {
         "dropped_invalid_bars": 10
       },
-      "latest_close": 51238.0,
-      "latest_volume": 2418,
-      "previous_close": 51278.0,
-      "daily_change_pct": -0.078
+      "latest_close": 51485.0,
+      "latest_volume": 84975,
+      "previous_close": 51241.0,
+      "daily_change_pct": 0.4762
     }
   },
   "errors": {},
