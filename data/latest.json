@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-21T00:48:56.915647+00:00",
+  "generated_at": "2026-10-22T00:50:32.624993+00:00",
   "source": "Yahoo Finance unofficial chart endpoint",
   "status": "ok",
   "market_bias": "bullish",
-  "latest_market_date": "2026-10-21T00:38:53+00:00",
+  "latest_market_date": "2026-10-22T00:40:28+00:00",
   "markets": {
     "ES": {
-      "data_time": "2026-10-21T00:38:53+00:00",
+      "data_time": "2026-10-22T00:40:28+00:00",
       "bias": "bullish",
       "scores": {
-        "bullish": 2,
+        "bullish": 1,
         "bearish": 0
       },
       "events": [
@@ -20,21 +20,9 @@
           "reason": "價格測試 MA5 後收在均線上方，且未有效跌破",
           "details": {
             "period": 5,
-            "ma": 7756.75,
-            "low": 7770.0,
-            "close": 7783.75
-          }
-        },
-        {
-          "type": "ma_reclaim",
-          "side": "bullish",
-          "strength": "normal",
-          "reason": "MA5 曾被跌破，最新 K 棒重新站回",
-          "details": {
-            "period": 5,
-            "ma": 7756.75,
-            "close": 7783.75,
-            "reclaim_lookback": 3
+            "ma": 7750.2,
+            "low": 7760.25,
+            "close": 7766.0
           }
         }
       ],
@@ -56,20 +44,20 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "ES=F",
-      "bar_count": 503,
+      "bar_count": 504,
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 7783.75,
-      "latest_volume": 30784,
-      "previous_close": 7734.5,
-      "daily_change_pct": 0.6368
+      "latest_close": 7766.0,
+      "latest_volume": 37184,
+      "previous_close": 7755.25,
+      "daily_change_pct": 0.1386
     },
     "NQ": {
-      "data_time": "2026-10-21T00:38:52+00:00",
+      "data_time": "2026-10-22T00:40:28+00:00",
       "bias": "bullish",
       "scores": {
-        "bullish": 4,
+        "bullish": 2,
         "bearish": 0
       },
       "events": [
@@ -80,9 +68,9 @@
           "reason": "價格測試 MA5 後收在均線上方，且未有效跌破",
           "details": {
             "period": 5,
-            "ma": 29888.3,
-            "low": 29859.0,
-            "close": 30001.0
+            "ma": 29743.65,
+            "low": 29753.75,
+            "close": 29785.25
           }
         },
         {
@@ -92,32 +80,8 @@
           "reason": "MA5 曾被跌破，最新 K 棒重新站回",
           "details": {
             "period": 5,
-            "ma": 29888.3,
-            "close": 30001.0,
-            "reclaim_lookback": 3
-          }
-        },
-        {
-          "type": "ma_hold",
-          "side": "bullish",
-          "strength": "normal",
-          "reason": "價格測試 MA60 後收在均線上方，且未有效跌破",
-          "details": {
-            "period": 60,
-            "ma": 29829.853,
-            "low": 29859.0,
-            "close": 30001.0
-          }
-        },
-        {
-          "type": "ma_reclaim",
-          "side": "bullish",
-          "strength": "normal",
-          "reason": "MA60 曾被跌破，最新 K 棒重新站回",
-          "details": {
-            "period": 60,
-            "ma": 29829.853,
-            "close": 30001.0,
+            "ma": 29743.65,
+            "close": 29785.25,
             "reclaim_lookback": 3
           }
         }
@@ -140,17 +104,17 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "NQ=F",
-      "bar_count": 503,
+      "bar_count": 504,
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 30001.0,
-      "latest_volume": 30474,
-      "previous_close": 29722.5,
-      "daily_change_pct": 0.937
+      "latest_close": 29785.25,
+      "latest_volume": 30860,
+      "previous_close": 29675.25,
+      "daily_change_pct": 0.3707
     },
     "YM": {
-      "data_time": "2026-10-21T00:38:26+00:00",
+      "data_time": "2026-10-22T00:40:00+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -175,14 +139,14 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "YM=F",
-      "bar_count": 493,
+      "bar_count": 494,
       "data_quality": {
         "dropped_invalid_bars": 10
       },
-      "latest_close": 52720.0,
-      "latest_volume": 2584,
-      "previous_close": 52182.0,
-      "daily_change_pct": 1.031
+      "latest_close": 52890.0,
+      "latest_volume": 3080,
+      "previous_close": 52719.0,
+      "daily_change_pct": 0.3244
     }
   },
   "errors": {},
