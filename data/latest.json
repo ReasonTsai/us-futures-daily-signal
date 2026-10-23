@@ -1,31 +1,18 @@
 {
-  "generated_at": "2026-10-22T00:50:32.624993+00:00",
+  "generated_at": "2026-10-23T00:51:42.080422+00:00",
   "source": "Yahoo Finance unofficial chart endpoint",
   "status": "ok",
-  "market_bias": "bullish",
-  "latest_market_date": "2026-10-22T00:40:28+00:00",
+  "market_bias": "mixed",
+  "latest_market_date": "2026-10-23T00:41:39+00:00",
   "markets": {
     "ES": {
-      "data_time": "2026-10-22T00:40:28+00:00",
-      "bias": "bullish",
+      "data_time": "2026-10-23T00:41:39+00:00",
+      "bias": "neutral",
       "scores": {
-        "bullish": 1,
+        "bullish": 0,
         "bearish": 0
       },
-      "events": [
-        {
-          "type": "ma_hold",
-          "side": "bullish",
-          "strength": "normal",
-          "reason": "價格測試 MA5 後收在均線上方，且未有效跌破",
-          "details": {
-            "period": 5,
-            "ma": 7750.2,
-            "low": 7760.25,
-            "close": 7766.0
-          }
-        }
-      ],
+      "events": [],
       "config": {
         "moving_averages": [
           5,
@@ -48,44 +35,19 @@
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 7766.0,
-      "latest_volume": 37184,
-      "previous_close": 7755.25,
-      "daily_change_pct": 0.1386
+      "latest_close": 7704.0,
+      "latest_volume": 40309,
+      "previous_close": 7800.25,
+      "daily_change_pct": -1.2339
     },
     "NQ": {
-      "data_time": "2026-10-22T00:40:28+00:00",
-      "bias": "bullish",
+      "data_time": "2026-10-23T00:41:38+00:00",
+      "bias": "neutral",
       "scores": {
-        "bullish": 2,
+        "bullish": 0,
         "bearish": 0
       },
-      "events": [
-        {
-          "type": "ma_hold",
-          "side": "bullish",
-          "strength": "normal",
-          "reason": "價格測試 MA5 後收在均線上方，且未有效跌破",
-          "details": {
-            "period": 5,
-            "ma": 29743.65,
-            "low": 29753.75,
-            "close": 29785.25
-          }
-        },
-        {
-          "type": "ma_reclaim",
-          "side": "bullish",
-          "strength": "normal",
-          "reason": "MA5 曾被跌破，最新 K 棒重新站回",
-          "details": {
-            "period": 5,
-            "ma": 29743.65,
-            "close": 29785.25,
-            "reclaim_lookback": 3
-          }
-        }
-      ],
+      "events": [],
       "config": {
         "moving_averages": [
           5,
@@ -108,13 +70,13 @@
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 29785.25,
-      "latest_volume": 30860,
-      "previous_close": 29675.25,
-      "daily_change_pct": 0.3707
+      "latest_close": 29116.0,
+      "latest_volume": 28645,
+      "previous_close": 30007.0,
+      "daily_change_pct": -2.9693
     },
     "YM": {
-      "data_time": "2026-10-22T00:40:00+00:00",
+      "data_time": "2026-10-23T00:41:38+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -143,10 +105,10 @@
       "data_quality": {
         "dropped_invalid_bars": 10
       },
-      "latest_close": 52890.0,
-      "latest_volume": 3080,
-      "previous_close": 52719.0,
-      "daily_change_pct": 0.3244
+      "latest_close": 53081.0,
+      "latest_volume": 2284,
+      "previous_close": 53059.0,
+      "daily_change_pct": 0.0415
     }
   },
   "errors": {},
