@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-23T00:51:42.080422+00:00",
+  "generated_at": "2026-10-24T00:58:47.006407+00:00",
   "source": "Yahoo Finance unofficial chart endpoint",
   "status": "ok",
   "market_bias": "mixed",
-  "latest_market_date": "2026-10-23T00:41:39+00:00",
+  "latest_market_date": "2026-10-23T04:00:00+00:00",
   "markets": {
     "ES": {
-      "data_time": "2026-10-23T00:41:39+00:00",
+      "data_time": "2026-10-23T04:00:00+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -35,13 +35,13 @@
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 7704.0,
-      "latest_volume": 40309,
-      "previous_close": 7800.25,
-      "daily_change_pct": -1.2339
+      "latest_close": 7672.5,
+      "latest_volume": 1744080,
+      "previous_close": 7704.5,
+      "daily_change_pct": -0.4153
     },
     "NQ": {
-      "data_time": "2026-10-23T00:41:38+00:00",
+      "data_time": "2026-10-23T04:00:00+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -70,13 +70,13 @@
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 29116.0,
-      "latest_volume": 28645,
-      "previous_close": 30007.0,
-      "daily_change_pct": -2.9693
+      "latest_close": 29175.0,
+      "latest_volume": 672105,
+      "previous_close": 29142.0,
+      "daily_change_pct": 0.1132
     },
     "YM": {
-      "data_time": "2026-10-23T00:41:38+00:00",
+      "data_time": "2026-10-23T04:00:00+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -105,10 +105,10 @@
       "data_quality": {
         "dropped_invalid_bars": 10
       },
-      "latest_close": 53081.0,
-      "latest_volume": 2284,
-      "previous_close": 53059.0,
-      "daily_change_pct": 0.0415
+      "latest_close": 52451.0,
+      "latest_volume": 91573,
+      "previous_close": 53068.0,
+      "daily_change_pct": -1.1627
     }
   },
   "errors": {},
