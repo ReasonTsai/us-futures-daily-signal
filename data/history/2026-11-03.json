@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-03T03:39:25.044977+00:00",
+  "source": "Yahoo Finance unofficial chart endpoint",
+  "status": "ok",
+  "market_bias": "mixed",
+  "latest_market_date": "2026-11-03T03:29:22+00:00",
+  "markets": {
+    "ES": {
+      "data_time": "2026-11-03T03:29:22+00:00",
+      "bias": "neutral",
+      "scores": {
+        "bullish": 0,
+        "bearish": 0
+      },
+      "events": [],
+      "config": {
+        "moving_averages": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "volume_lookback": 20,
+        "extreme_volume_multiple": 2.0,
+        "ma_touch_tolerance": 0.002,
+        "reclaim_lookback": 3,
+        "close_confirmation": 0.001
+      },
+      "warnings": [],
+      "source": "Yahoo Finance",
+      "symbol": "ES=F",
+      "bar_count": 503,
+      "data_quality": {
+        "dropped_invalid_bars": 0
+      },
+      "latest_close": 7572.0,
+      "latest_volume": 59374,
+      "previous_close": 7574.5,
+      "daily_change_pct": -0.033
+    },
+    "NQ": {
+      "data_time": "2026-11-03T03:29:22+00:00",
+      "bias": "neutral",
+      "scores": {
+        "bullish": 0,
+        "bearish": 0
+      },
+      "events": [],
+      "config": {
+        "moving_averages": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "volume_lookback": 20,
+        "extreme_volume_multiple": 2.0,
+        "ma_touch_tolerance": 0.002,
+        "reclaim_lookback": 3,
+        "close_confirmation": 0.001
+      },
+      "warnings": [],
+      "source": "Yahoo Finance",
+      "symbol": "NQ=F",
+      "bar_count": 503,
+      "data_quality": {
+        "dropped_invalid_bars": 0
+      },
+      "latest_close": 28217.75,
+      "latest_volume": 39538,
+      "previous_close": 28127.5,
+      "daily_change_pct": 0.3209
+    },
+    "YM": {
+      "data_time": "2026-11-03T03:28:58+00:00",
+      "bias": "neutral",
+      "scores": {
+        "bullish": 0,
+        "bearish": 0
+      },
+      "events": [],
+      "config": {
+        "moving_averages": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "volume_lookback": 20,
+        "extreme_volume_multiple": 2.0,
+        "ma_touch_tolerance": 0.002,
+        "reclaim_lookback": 3,
+        "close_confirmation": 0.001
+      },
+      "warnings": [],
+      "source": "Yahoo Finance",
+      "symbol": "YM=F",
+      "bar_count": 496,
+      "data_quality": {
+        "dropped_invalid_bars": 7
+      },
+      "latest_close": 51960.0,
+      "latest_volume": 4707,
+      "previous_close": 52133.0,
+      "daily_change_pct": -0.3318
+    }
+  },
+  "errors": {},
+  "disclaimer": "研究用途，不構成投資建議。Yahoo Finance 為非正式資料介面。"
+}
