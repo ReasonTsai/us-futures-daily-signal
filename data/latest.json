@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-11T02:08:32.216509+00:00",
+  "generated_at": "2026-11-12T03:17:22.613336+00:00",
   "source": "Yahoo Finance unofficial chart endpoint",
   "status": "ok",
   "market_bias": "mixed",
-  "latest_market_date": "2026-11-11T01:58:31+00:00",
+  "latest_market_date": "2026-11-12T03:07:18+00:00",
   "markets": {
     "ES": {
-      "data_time": "2026-11-11T01:58:29+00:00",
+      "data_time": "2026-11-12T03:07:17+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -31,17 +31,17 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "ES=F",
-      "bar_count": 503,
+      "bar_count": 505,
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 7575.25,
-      "latest_volume": 34726,
-      "previous_close": 7574.25,
-      "daily_change_pct": 0.0132
+      "latest_close": 7620.5,
+      "latest_volume": 69393,
+      "previous_close": 7640.5,
+      "daily_change_pct": -0.2618
     },
     "NQ": {
-      "data_time": "2026-11-11T01:58:31+00:00",
+      "data_time": "2026-11-12T03:07:18+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -66,20 +66,20 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "NQ=F",
-      "bar_count": 503,
+      "bar_count": 505,
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 28086.25,
-      "latest_volume": 33018,
-      "previous_close": 28014.5,
-      "daily_change_pct": 0.2561
+      "latest_close": 28312.5,
+      "latest_volume": 55607,
+      "previous_close": 28473.25,
+      "daily_change_pct": -0.5646
     },
     "YM": {
-      "data_time": "2026-11-11T01:58:25+00:00",
+      "data_time": "2026-11-12T03:06:48+00:00",
       "bias": "bullish",
       "scores": {
-        "bullish": 3,
+        "bullish": 1,
         "bearish": 0
       },
       "events": [
@@ -87,36 +87,12 @@
           "type": "ma_hold",
           "side": "bullish",
           "strength": "normal",
-          "reason": "價格測試 MA5 後收在均線上方，且未有效跌破",
+          "reason": "價格測試 MA20 後收在均線上方，且未有效跌破",
           "details": {
-            "period": 5,
-            "ma": 52283.8,
-            "low": 52343.0,
-            "close": 52418.0
-          }
-        },
-        {
-          "type": "ma_hold",
-          "side": "bullish",
-          "strength": "normal",
-          "reason": "價格測試 MA10 後收在均線上方，且未有效跌破",
-          "details": {
-            "period": 10,
-            "ma": 52257.3,
-            "low": 52343.0,
-            "close": 52418.0
-          }
-        },
-        {
-          "type": "ma_hold",
-          "side": "bullish",
-          "strength": "normal",
-          "reason": "價格測試 MA120 後收在均線上方，且未有效跌破",
-          "details": {
-            "period": 120,
-            "ma": 52359.5167,
-            "low": 52343.0,
-            "close": 52418.0
+            "period": 20,
+            "ma": 52423.45,
+            "low": 52527.0,
+            "close": 52656.0
           }
         }
       ],
@@ -138,14 +114,14 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "YM=F",
-      "bar_count": 497,
+      "bar_count": 499,
       "data_quality": {
         "dropped_invalid_bars": 6
       },
-      "latest_close": 52418.0,
-      "latest_volume": 2356,
-      "previous_close": 52498.0,
-      "daily_change_pct": -0.1524
+      "latest_close": 52656.0,
+      "latest_volume": 5105,
+      "previous_close": 52578.0,
+      "daily_change_pct": 0.1484
     }
   },
   "errors": {},
