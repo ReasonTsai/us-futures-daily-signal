@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-14T02:38:20.663464+00:00",
+  "generated_at": "2026-11-17T04:43:13.704422+00:00",
   "source": "Yahoo Finance unofficial chart endpoint",
   "status": "ok",
   "market_bias": "mixed",
-  "latest_market_date": "2026-11-13T05:00:00+00:00",
+  "latest_market_date": "2026-11-17T04:33:13+00:00",
   "markets": {
     "ES": {
-      "data_time": "2026-11-13T05:00:00+00:00",
+      "data_time": "2026-11-17T04:33:12+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -31,36 +31,23 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "ES=F",
-      "bar_count": 504,
+      "bar_count": 503,
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 7561.0,
-      "latest_volume": 1874671,
-      "previous_close": 7615.25,
-      "daily_change_pct": -0.7124
+      "latest_close": 7434.75,
+      "latest_volume": 70657,
+      "previous_close": 7439.0,
+      "daily_change_pct": -0.0571
     },
     "NQ": {
-      "data_time": "2026-11-13T05:00:00+00:00",
-      "bias": "bullish",
+      "data_time": "2026-11-17T04:33:13+00:00",
+      "bias": "neutral",
       "scores": {
-        "bullish": 1,
+        "bullish": 0,
         "bearish": 0
       },
-      "events": [
-        {
-          "type": "ma_hold",
-          "side": "bullish",
-          "strength": "normal",
-          "reason": "價格測試 MA240 後收在均線上方，且未有效跌破",
-          "details": {
-            "period": 240,
-            "ma": 27743.8181,
-            "low": 27695.25,
-            "close": 27927.25
-          }
-        }
-      ],
+      "events": [],
       "config": {
         "moving_averages": [
           5,
@@ -79,17 +66,17 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "NQ=F",
-      "bar_count": 504,
+      "bar_count": 503,
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 27927.25,
-      "latest_volume": 803962,
-      "previous_close": 28384.5,
-      "daily_change_pct": -1.6109
+      "latest_close": 27341.25,
+      "latest_volume": 66748,
+      "previous_close": 27284.25,
+      "daily_change_pct": 0.2089
     },
     "YM": {
-      "data_time": "2026-11-13T05:00:00+00:00",
+      "data_time": "2026-11-17T04:32:45+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -114,14 +101,14 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "YM=F",
-      "bar_count": 498,
+      "bar_count": 497,
       "data_quality": {
         "dropped_invalid_bars": 6
       },
-      "latest_close": 52347.0,
-      "latest_volume": 76907,
-      "previous_close": 52390.0,
-      "daily_change_pct": -0.0821
+      "latest_close": 51517.0,
+      "latest_volume": 5798,
+      "previous_close": 51670.0,
+      "daily_change_pct": -0.2961
     }
   },
   "errors": {},
