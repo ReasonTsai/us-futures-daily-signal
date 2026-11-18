@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-17T04:43:13.704422+00:00",
+  "generated_at": "2026-11-18T03:48:45.795111+00:00",
   "source": "Yahoo Finance unofficial chart endpoint",
   "status": "ok",
   "market_bias": "mixed",
-  "latest_market_date": "2026-11-17T04:33:13+00:00",
+  "latest_market_date": "2026-11-18T03:38:44+00:00",
   "markets": {
     "ES": {
-      "data_time": "2026-11-17T04:33:12+00:00",
+      "data_time": "2026-11-18T03:38:44+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -31,17 +31,17 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "ES=F",
-      "bar_count": 503,
+      "bar_count": 504,
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 7434.75,
-      "latest_volume": 70657,
-      "previous_close": 7439.0,
-      "daily_change_pct": -0.0571
+      "latest_close": 7380.75,
+      "latest_volume": 87684,
+      "previous_close": 7359.0,
+      "daily_change_pct": 0.2956
     },
     "NQ": {
-      "data_time": "2026-11-17T04:33:13+00:00",
+      "data_time": "2026-11-18T03:38:44+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -66,17 +66,17 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "NQ=F",
-      "bar_count": 503,
+      "bar_count": 504,
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 27341.25,
-      "latest_volume": 66748,
-      "previous_close": 27284.25,
-      "daily_change_pct": 0.2089
+      "latest_close": 27229.0,
+      "latest_volume": 90008,
+      "previous_close": 27075.5,
+      "daily_change_pct": 0.5669
     },
     "YM": {
-      "data_time": "2026-11-17T04:32:45+00:00",
+      "data_time": "2026-11-18T03:38:29+00:00",
       "bias": "neutral",
       "scores": {
         "bullish": 0,
@@ -101,14 +101,14 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "YM=F",
-      "bar_count": 497,
+      "bar_count": 504,
       "data_quality": {
-        "dropped_invalid_bars": 6
+        "dropped_invalid_bars": 0
       },
-      "latest_close": 51517.0,
-      "latest_volume": 5798,
-      "previous_close": 51670.0,
-      "daily_change_pct": -0.2961
+      "latest_close": 50873.0,
+      "latest_volume": 7711,
+      "previous_close": 50815.0,
+      "daily_change_pct": 0.1141
     }
   },
   "errors": {},
