@@ -1,12 +1,47 @@
 {
-  "generated_at": "2026-11-25T04:59:36.244856+00:00",
+  "generated_at": "2026-11-26T04:17:53.755198+00:00",
   "source": "Yahoo Finance unofficial chart endpoint",
   "status": "ok",
-  "market_bias": "mixed",
-  "latest_market_date": "2026-11-25T04:49:34+00:00",
+  "market_bias": "bullish",
+  "latest_market_date": "2026-11-26T04:07:51+00:00",
   "markets": {
     "ES": {
-      "data_time": "2026-11-25T04:49:30+00:00",
+      "data_time": "2026-11-26T04:07:51+00:00",
+      "bias": "neutral",
+      "scores": {
+        "bullish": 0,
+        "bearish": 0
+      },
+      "events": [],
+      "config": {
+        "moving_averages": [
+          5,
+          10,
+          20,
+          60,
+          120,
+          240
+        ],
+        "volume_lookback": 20,
+        "extreme_volume_multiple": 2.0,
+        "ma_touch_tolerance": 0.002,
+        "reclaim_lookback": 3,
+        "close_confirmation": 0.001
+      },
+      "warnings": [],
+      "source": "Yahoo Finance",
+      "symbol": "ES=F",
+      "bar_count": 505,
+      "data_quality": {
+        "dropped_invalid_bars": 0
+      },
+      "latest_close": 7244.75,
+      "latest_volume": 51440,
+      "previous_close": 7195.75,
+      "daily_change_pct": 0.681
+    },
+    "NQ": {
+      "data_time": "2026-11-26T04:07:51+00:00",
       "bias": "bullish",
       "scores": {
         "bullish": 1,
@@ -14,15 +49,15 @@
       },
       "events": [
         {
-          "type": "ma_hold",
+          "type": "ma_reclaim",
           "side": "bullish",
           "strength": "normal",
-          "reason": "價格測試 MA5 後收在均線上方，且未有效跌破",
+          "reason": "MA5 曾被跌破，最新 K 棒重新站回",
           "details": {
             "period": 5,
-            "ma": 7153.85,
-            "low": 7160.25,
-            "close": 7165.0
+            "ma": 26137.2,
+            "close": 26375.5,
+            "reclaim_lookback": 3
           }
         }
       ],
@@ -43,59 +78,49 @@
       },
       "warnings": [],
       "source": "Yahoo Finance",
-      "symbol": "ES=F",
-      "bar_count": 504,
-      "data_quality": {
-        "dropped_invalid_bars": 0
-      },
-      "latest_close": 7165.0,
-      "latest_volume": 70345,
-      "previous_close": 7217.5,
-      "daily_change_pct": -0.7274
-    },
-    "NQ": {
-      "data_time": "2026-11-25T04:49:34+00:00",
-      "bias": "neutral",
-      "scores": {
-        "bullish": 0,
-        "bearish": 0
-      },
-      "events": [],
-      "config": {
-        "moving_averages": [
-          5,
-          10,
-          20,
-          60,
-          120,
-          240
-        ],
-        "volume_lookback": 20,
-        "extreme_volume_multiple": 2.0,
-        "ma_touch_tolerance": 0.002,
-        "reclaim_lookback": 3,
-        "close_confirmation": 0.001
-      },
-      "warnings": [],
-      "source": "Yahoo Finance",
       "symbol": "NQ=F",
-      "bar_count": 504,
+      "bar_count": 505,
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 25945.75,
-      "latest_volume": 74862,
-      "previous_close": 26275.75,
-      "daily_change_pct": -1.2559
+      "latest_close": 26375.5,
+      "latest_volume": 41485,
+      "previous_close": 26100.25,
+      "daily_change_pct": 1.0546
     },
     "YM": {
-      "data_time": "2026-11-25T04:49:06+00:00",
-      "bias": "neutral",
+      "data_time": "2026-11-26T04:07:50+00:00",
+      "bias": "bullish",
       "scores": {
-        "bullish": 0,
+        "bullish": 2,
         "bearish": 0
       },
-      "events": [],
+      "events": [
+        {
+          "type": "ma_hold",
+          "side": "bullish",
+          "strength": "normal",
+          "reason": "價格測試 MA10 後收在均線上方，且未有效跌破",
+          "details": {
+            "period": 10,
+            "ma": 50294.1,
+            "low": 50223.0,
+            "close": 50403.0
+          }
+        },
+        {
+          "type": "ma_reclaim",
+          "side": "bullish",
+          "strength": "normal",
+          "reason": "MA10 曾被跌破，最新 K 棒重新站回",
+          "details": {
+            "period": 10,
+            "ma": 50294.1,
+            "close": 50403.0,
+            "reclaim_lookback": 3
+          }
+        }
+      ],
       "config": {
         "moving_averages": [
           5,
@@ -114,14 +139,14 @@
       "warnings": [],
       "source": "Yahoo Finance",
       "symbol": "YM=F",
-      "bar_count": 504,
+      "bar_count": 505,
       "data_quality": {
         "dropped_invalid_bars": 0
       },
-      "latest_close": 49859.0,
-      "latest_volume": 5904,
-      "previous_close": 50061.0,
-      "daily_change_pct": -0.4035
+      "latest_close": 50403.0,
+      "latest_volume": 3773,
+      "previous_close": 50228.0,
+      "daily_change_pct": 0.3484
     }
   },
   "errors": {},
